@@ -10,18 +10,18 @@ After copying the files, create the MySQL database iot and the database user iot
 # How to use
 Simply access send.php with the data you want to send, and the sensor id. For example:
 
-http://<<your server address>>/<<app path>>/send.php?id=1&s1=23
+http://SERVER_ADDRESS/APP_PATH/send.php?id=1&s1=23
   
-http://<<your server address>>/<<app path>>/send.php?id=1&s1=1
+http://SERVER_ADDRESS/APP_PATH/send.php?id=1&s1=1
   
-http://<<your server address>>/<<app path>>/send.php?id=2&s1=12
+http://SERVER_ADDRESS/APP_PATH/send.php?id=2&s1=12
 
 These URLs and variants can be configured on IOT devices or other embedded systems to send data 
 to server using this address.
 
 Then access:
 
-http://<<your server address>>/<<app path>>/index.php?id=1
+http://ERVER_ADDRESS/APP_PATH/index.php?id=1
 
 index.php: allows all the data to be viewed on a graph, with adjustable label name and datetime range
 
